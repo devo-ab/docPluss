@@ -9,7 +9,7 @@ const Discount = () => {
       <div className="absolute inset-0 bg-gradient-to-r from-[#020043] to-[#0200434d] rounded-3xl"></div>
 
       <div className="absolute top-4 md:top-16 right-4 md:right-16">
-        <img className="w-20" src={logo} alt="" />
+        <img className="w-20 md:w-full" src={logo} alt="" />
       </div>
 
       <div className="absolute top-2 md:top-1/4 p-4 md:p-12">
