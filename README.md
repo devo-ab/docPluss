@@ -2,7 +2,7 @@
 
 **Doc Plus** is a clean and professional doctor web landing page built with **React**, **Tailwind CSS**, and **Vite**. It is fully responsive across all devices and designed to showcase healthcare services, doctor information, and appointment options. All content is static as it serves as a landing page only.
 
-## [🚀 Live Demo:](https://your-live-link.com)
+## [🚀 Live Demo:](https://doc-pluss.vercel.app/)
 
 ---
 
