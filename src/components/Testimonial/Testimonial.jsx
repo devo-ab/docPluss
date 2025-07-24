@@ -14,7 +14,7 @@ import star from "../../assets/testimonial/Vector.png";
 
 const Testimonial = () => {
   return (
-    <div className="mt-10">
+    <div className="mt-20">
       <p className="border border-[#343268] px-5 py-2 rounded-3xl w-fit">Testimonial</p>
       <p className="text-4xl font-semibold text-[#020043] mt-2">What they say about us</p>
 

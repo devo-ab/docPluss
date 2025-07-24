@@ -4,7 +4,7 @@ import { LuArrowUpRight } from "react-icons/lu";
 
 const Discount = () => {
   return (
-    <div className="mt-10 relative overflow-hidden">
+    <div className="mt-20 relative overflow-hidden">
       <img className="w-full h-fit rounded-3xl" src={img} alt="" />
       <div className="absolute inset-0 bg-gradient-to-r from-[#020043] to-[#0200434d] rounded-3xl"></div>
 

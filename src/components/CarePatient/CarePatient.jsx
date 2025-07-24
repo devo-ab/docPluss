@@ -10,10 +10,10 @@ import video from "../../assets/carePoint/video.png"
 
 const CarePatient = () => {
   return (
-    <div className="mt-5">
+    <div className="mt-10 md:mt-20">
       <div className="text-[#020043] grid grid-cols-1 gap-4 md:grid-cols-5 lg:grid-cols-5">
         <div className="p-5 bg-[#fbfbfb] border border-[#02004333] rounded-3xl md:row-span-2 md:col-span-1 hidden md:block">
-          <p className="text-[40px] font-semibold">90%</p>
+          <p className="text-[30px] md:text-[40px] font-semibold">90%</p>
           <p className="text-sm">Patient satisfaction rate, reflecting our commitment.</p>
           <img className="mt-10 mr-56" src={pi} alt="" />
         </div>
