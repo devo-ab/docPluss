@@ -17,33 +17,33 @@ const Services = () => {
 
             <div className="relative flex-1">
                 <img className="rounded-3xl w-full" src={img} alt="" />
-                <div className="bg-[#343268] max-w-96 rounded-3xl p-6 absolute left-0 md:left-6 bottom-0 md:bottom-6 bg-opacity-70">
+                <div className="bg-[#343268] max-w-96 rounded-3xl p-6 absolute left-0 md:left-6 bottom-0 md:bottom-6 bg-opacity-70 sm:h-full md:h-auto">
                     <p className="text-[26px] font-medium text-white">Advanced Technology</p>
                     <div className="relative">
                     <p className="text-[#ffffffcc] mt-4">Our surgeons are trained in the latest robotic surgical techniques, which allow for greater precision</p>
-                    <span className="text-xl absolute -right-3 bottom-1 bg-[#ffc637] p-2 rounded-full text-white"><LuArrowUpRight /></span>
+                    <span className="text-xl absolute -right-3 -bottom-4 bg-[#ffc637] p-2 rounded-full text-white"><LuArrowUpRight /></span>
                     </div>
                 </div>
             </div>
 
             <div className="relative flex-1">
                 <img className="rounded-3xl w-full" src={img1} alt="" />
-                <div className="bg-[#343268] max-w-96 rounded-3xl p-6 absolute left-0 md:left-6 bottom-0 md:bottom-6 bg-opacity-70">
+                <div className="bg-[#343268] max-w-96 rounded-3xl p-6 absolute left-0 md:left-6 bottom-0 md:bottom-6 bg-opacity-70 sm:h-full md:h-auto">
                     <p className="text-[26px] font-medium text-white">Online Doctor Meet</p>
                     <div className="relative">
                     <p className="text-[#ffffffcc] mt-4">Our surgeons are trained in the latest robotic surgical techniques, which allow for greater precision</p>
-                    <span className="text-xl absolute -right-3 bottom-1 bg-[#ffc637] p-2 rounded-full text-white"><LuArrowUpRight /></span>
+                    <span className="text-xl absolute -right-3 -bottom-4 bg-[#ffc637] p-2 rounded-full text-white"><LuArrowUpRight /></span>
                     </div>
                 </div>
             </div>
 
             <div className="relative flex-1">
                 <img className="rounded-3xl w-full" src={img2} alt="" />
-                <div className="bg-[#343268] max-w-96 rounded-3xl p-6 absolute left-0 md:left-6 bottom-0 md:bottom-6 bg-opacity-70">
+                <div className="bg-[#343268] max-w-96 rounded-3xl p-6 absolute left-0 md:left-6 bottom-0 md:bottom-6 bg-opacity-70 sm:h-full md:h-auto">
                     <p className="text-[26px] font-medium text-white">Consultancy your health</p>
                     <div className="relative">
                     <p className="text-[#ffffffcc] mt-4">Our surgeons are trained in the latest robotic surgical techniques, which allow for greater precision</p>
-                    <span className="text-xl absolute -right-3 bottom-1 bg-[#ffc637] p-2 rounded-full text-white"><LuArrowUpRight /></span>
+                    <span className="text-xl absolute -right-3 -bottom-4 bg-[#ffc637] p-2 rounded-full text-white"><LuArrowUpRight /></span>
                     </div>
                 </div>
             </div>

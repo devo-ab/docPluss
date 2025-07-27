@@ -3,10 +3,10 @@ import pro1 from "../../assets/carePoint/Ellipse 2.png";
 import pro2 from "../../assets/carePoint/Ellipse 3.png";
 import pro3 from "../../assets/carePoint/Ellipse 4.png";
 import pro4 from "../../assets/carePoint/Ellipse 5.png";
-import pi from "../../assets/carePoint/Pi.png"
-import badge from "../../assets/carePoint/badge.png"
-import coin from "../../assets/carePoint/coin.png"
-import video from "../../assets/carePoint/video.png"
+import pi from "../../assets/carePoint/Pi.png";
+import badge from "../../assets/carePoint/badge.png";
+import coin from "../../assets/carePoint/coin.png";
+import video from "../../assets/carePoint/video.png";
 
 const CarePatient = () => {
   return (
@@ -15,7 +15,7 @@ const CarePatient = () => {
         <div className="p-5 bg-[#fbfbfb] border border-[#02004333] rounded-3xl md:row-span-2 md:col-span-1 hidden md:block">
           <p className="text-[30px] md:text-[40px] font-semibold">90%</p>
           <p className="text-sm">Patient satisfaction rate, reflecting our commitment.</p>
-          <img className="mt-10 mr-56" src={pi} alt="" />
+          <img className="mt-10" src={pi} alt="" />
         </div>
         <h1 className="text-[#020043] text-5xl font-semibold text-center md:col-span-3">
           Comprehensive Care <br /> for Every Patient
@@ -23,27 +23,20 @@ const CarePatient = () => {
         <div className="p-5 bg-[#fbfbfb] border border-[#02004333] rounded-3xl md:row-span-2 md:col-span-1 block md:hidden">
           <p className="text-[40px] font-semibold">90%</p>
           <p className="text-sm">Patient satisfaction rate, reflecting our commitment.</p>
-          <div className="flex justify-between">
-            <p></p>
-            <img className="mt-10" src={pi} alt="" />
-          </div>
+          <img className="mt-10" src={pi} alt="" />
         </div>
 
         <div className="p-5 bg-[#fbfbfb] border border-[#02004333] rounded-3xl md:row-span-2 md:col-span-1">
           <p className="text-[40px] font-semibold">50+</p>
           <p className="text-sm">Free lession video for patient</p>
-          <img className="w-32 flex mx-auto items-center justify-center mt-10" src={video} alt="" />
+          <img className="w-32 mt-10" src={video} alt="" />
         </div>
 
         <div className="p-5 bg-[#fffff5] border border-[#02004333] rounded-3xl md:row-span-1 md:col-span-1">
           <p className="text-[40px] font-semibold">500+</p>
           <p className="text-sm">Board-certified doctors</p>
-          <div className="flex justify-between mt-2">
-            <p></p>
-            <img className="w-24" src={badge} alt="" />
-          </div>
+          <img className="w-24" src={badge} alt="" />
         </div>
-
 
         <div className="p-5 bg-[#fbfbfb] border border-[#02004333] rounded-3xl md:row-span-1 md:col-span-1">
           <div className="flex items-center gap-2">
@@ -64,10 +57,7 @@ const CarePatient = () => {
         <div className="p-5 bg-[#fffff5] border border-[#02004333] rounded-3xl">
           <p className="text-[40px] font-semibold">$5000</p>
           <p className="text-sm">Money spend for poor patient</p>
-          <div className="flex justify-between mt-2">
-            <p></p>
           <img className="w-24 flex items-end" src={coin} alt="" />
-          </div>
         </div>
       </div>
     </div>
