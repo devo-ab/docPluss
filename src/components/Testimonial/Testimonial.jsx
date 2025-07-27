@@ -18,31 +18,34 @@ const Testimonial = () => {
       <p className="border border-[#343268] px-5 py-2 rounded-3xl w-fit">Testimonial</p>
       <p className="text-4xl font-semibold text-[#020043] mt-2">What they say about us</p>
 
-      <div className="mt-5">
-      <Swiper
-        slidesPerView={3}
-        spaceBetween={10}
-        pagination={{
-          clickable: true,
-        }}
-        breakpoints={{
-          
-          440: {
-            slidesPerView: 1,
-            spaceBetween: 20,
-          },
-          576: {
-            slidesPerView: 1,
-            spaceBetween: 40,
-          },
-          992: {
-            slidesPerView: 3,
-            spaceBetween: 50,
-          },
-        }}
-        modules={[Pagination]}
-        className="mySwiper"
-      >
+      <div className="mt-5 w-full">
+        <Swiper
+          slidesPerView={3}
+          spaceBetween={10}
+          pagination={{
+            clickable: true,
+          }}
+          breakpoints={{
+            0: {
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
+            440: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            576: {
+              slidesPerView: 1,
+              spaceBetween: 40,
+            },
+            992: {
+              slidesPerView: 3,
+              spaceBetween: 50,
+            },
+          }}
+          modules={[Pagination]}
+          className="mySwiper"
+        >
           <SwiperSlide>
             <div className="bg-[#fffff5] p-5">
               <p className="text-[#020043] text-xl font-semibold">
