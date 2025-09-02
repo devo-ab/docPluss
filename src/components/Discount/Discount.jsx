@@ -5,14 +5,14 @@ import { LuArrowUpRight } from "react-icons/lu";
 const Discount = () => {
   return (
     <div className="mt-20 relative overflow-hidden">
-      <img className="w-full h-fit rounded-3xl" src={img} alt="" />
+      <img className="w-full h-[350px] md:h-auto object-cover rounded-3xl" src={img} alt="" />
       <div className="absolute inset-0 bg-gradient-to-r from-[#020043] to-[#0200434d] rounded-3xl"></div>
 
       <div className="absolute top-4 md:top-16 right-4 md:right-16">
         <img className="w-20 md:w-full" src={logo} alt="" />
       </div>
 
-      <div className="absolute top-2 md:top-1/4 p-4 md:p-12">
+      <div className="absolute bottom-2 md:top-1/4 p-4 md:p-12">
         <p className="text-2xl md:text-5xl font-semibold text-white">Get Your</p>
         <p className="text-2xl md:text-5xl font-semibold text-white md:mt-3">First Appointment</p>
         <p className="text-2xl md:text-5xl font-semibold text-white md:mt-3">at 50% Off!</p>

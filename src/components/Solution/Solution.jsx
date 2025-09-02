@@ -4,7 +4,7 @@ import img from "../../assets/images/Rectangle 24.png"
 const Solution = () => {
     return (
         <div className="mt-20 md:mt-20 text-[#020043] flex flex-col-reverse md:flex-row">
-            <div className="mt-28 md:mt-0 flex-1">
+            <div className="mt-40 md:mt-0 flex-1">
                 <p className=" border border-[#343268] px-5 py-2 rounded-3xl w-fit">Who we are</p>
                 <p className="text-4xl font-semibold mt-2">We Help To Get <br /> Soultions</p>
                 <p className="text-[#4d4c7b] mt-3 w-full md:w-[475px]">We are proud to be a trusted healthcare provider in our community, and we look forward to serving you and your family with excellence, integrity, and compassion. Your health is our priority, and we are here for you every step of the way. We believe in treating each patient with dignity, respect, and empathy, ensuring that they receive the attention and care they deserve.

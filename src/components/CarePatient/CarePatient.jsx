@@ -1,4 +1,3 @@
-import star from "../../assets/carePoint/fi-sr-star.png";
 import pro1 from "../../assets/carePoint/Ellipse 2.png";
 import pro2 from "../../assets/carePoint/Ellipse 3.png";
 import pro3 from "../../assets/carePoint/Ellipse 4.png";
@@ -6,6 +5,7 @@ import pro4 from "../../assets/carePoint/Ellipse 5.png";
 import pi from "../../assets/carePoint/Pi.png";
 import badge from "../../assets/carePoint/badge.png";
 import coin from "../../assets/carePoint/coin.png";
+import star from "../../assets/carePoint/fi-sr-star.png";
 import video from "../../assets/carePoint/video.png";
 
 const CarePatient = () => {
