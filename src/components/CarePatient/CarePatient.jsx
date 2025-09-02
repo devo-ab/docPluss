@@ -55,10 +55,10 @@ const CarePatient = () => {
             <p className="text-sm">Over 20,000 Patient</p>
           </div>
           <div className="flex mt-3">
-            <img src={pro1} alt="" />
-            <img className="-ml-3" src={pro2} alt="" />
-            <img className="-ml-3" src={pro3} alt="" />
-            <img className="-ml-3" src={pro4} alt="" />
+            <img className="w-10" src={pro1} alt="" />
+            <img className="-ml-3 w-10" src={pro2} alt="" />
+            <img className="-ml-3 w-10" src={pro3} alt="" />
+            <img className="-ml-3 w-10" src={pro4} alt="" />
           </div>
         </div>
 
