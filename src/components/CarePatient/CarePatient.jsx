@@ -20,32 +20,40 @@ const CarePatient = () => {
         <h1 className="text-[#020043] text-5xl font-semibold text-center md:col-span-3">
           Comprehensive Care <br /> for Every Patient
         </h1>
-        <div className="p-5 bg-[#fbfbfb] border border-[#02004333] rounded-3xl md:row-span-2 md:col-span-1 block md:hidden">
-          <p className="text-[40px] font-semibold">90%</p>
-          <p className="text-sm">Patient satisfaction rate, reflecting our commitment.</p>
+        <div className="p-5 bg-[#fbfbfb] border border-[#02004333] rounded-3xl md:row-span-2 md:col-span-1 flex md:hidden">
+          <div>
+            <p className="text-[40px] font-semibold">90%</p>
+            <p className="text-sm">Patient satisfaction rate, reflecting our commitment.</p>
+          </div>
           <img className="mt-10" src={pi} alt="" />
         </div>
 
-        <div className="p-5 bg-[#fbfbfb] border border-[#02004333] rounded-3xl md:row-span-2 md:col-span-1">
-          <p className="text-[40px] font-semibold">50+</p>
-          <p className="text-sm">Free lession video for patient</p>
+        <div className="p-5 bg-[#fbfbfb] border border-[#02004333] rounded-3xl md:row-span-2 md:col-span-1 flex md:flex-col justify-between">
+          <div>
+            <p className="text-[40px] font-semibold">50+</p>
+            <p className="text-sm">Free lession video for patient</p>
+          </div>
           <img className="w-32 mt-10" src={video} alt="" />
         </div>
 
-        <div className="p-5 bg-[#fffff5] border border-[#02004333] rounded-3xl md:row-span-1 md:col-span-1">
-          <p className="text-[40px] font-semibold">500+</p>
-          <p className="text-sm">Board-certified doctors</p>
+        <div className="p-5 bg-[#fffff5] border border-[#02004333] rounded-3xl md:row-span-1 md:col-span-1 flex md:flex-col justify-between">
+          <div>
+            <p className="text-[40px] font-semibold">500+</p>
+            <p className="text-sm">Board-certified doctors</p>
+          </div>
           <img className="w-24" src={badge} alt="" />
         </div>
 
-        <div className="p-5 bg-[#fbfbfb] border border-[#02004333] rounded-3xl md:row-span-1 md:col-span-1">
-          <div className="flex items-center gap-2">
-            <p className="text-[40px] font-semibold">4.8</p>
-            <div>
-              <img src={star} alt="" />
+        <div className="p-5 bg-[#fbfbfb] border border-[#02004333] rounded-3xl md:row-span-1 md:col-span-1 flex md:flex-col gap-20 md:gap-0">
+          <div>
+            <div className="flex items-center gap-2">
+              <p className="text-[40px] font-semibold">4.8</p>
+              <div>
+                <img src={star} alt="" />
+              </div>
             </div>
+            <p className="text-sm">Over 20,000 Patient</p>
           </div>
-          <p className="text-sm">Over 20,000 Patient</p>
           <div className="flex mt-3">
             <img src={pro1} alt="" />
             <img className="-ml-3" src={pro2} alt="" />
@@ -54,9 +62,11 @@ const CarePatient = () => {
           </div>
         </div>
 
-        <div className="p-5 bg-[#fffff5] border border-[#02004333] rounded-3xl">
-          <p className="text-[40px] font-semibold">$5000</p>
-          <p className="text-sm">Money spend for poor patient</p>
+        <div className="p-5 bg-[#fffff5] border border-[#02004333] rounded-3xl flex md:flex-col gap-20 md:gap-0">
+          <div>
+            <p className="text-[40px] font-semibold">$5000</p>
+            <p className="text-sm">Money spend for poor patient</p>
+          </div>
           <img className="w-24 flex items-end" src={coin} alt="" />
         </div>
       </div>
