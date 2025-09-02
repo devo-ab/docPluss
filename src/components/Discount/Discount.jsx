@@ -17,13 +17,13 @@ const Discount = () => {
         <p className="text-2xl md:text-5xl font-semibold text-white md:mt-3">First Appointment</p>
         <p className="text-2xl md:text-5xl font-semibold text-white md:mt-3">at 50% Off!</p>
         <div className="flex gap-5 mt-2 md:mt-6">
-          <button className="text-[#020043] font-medium bg-[#ffc637] rounded-xl px-6 py-2 flex items-center gap-1">
+          <button className="text-[#020043] font-medium bg-[#ffc637] rounded-xl px-4 md:px-6 py-2 flex items-center gap-1">
             Appointment
             <span className="text-xl">
               <LuArrowUpRight />
             </span>
           </button>
-          <button className="text-white font-medium  rounded-xl px-6 py-2 flex items-center gap-1 border border-[#fffff5]">
+          <button className="text-white font-medium  rounded-xl px-4 md:px-6 py-2 flex items-center gap-1 border border-[#fffff5]">
             Learn more
             <span className="text-xl">
               <LuArrowUpRight />
