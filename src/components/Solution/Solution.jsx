@@ -3,7 +3,7 @@ import img from "../../assets/images/Rectangle 24.png"
 
 const Solution = () => {
     return (
-        <div className="mt-10 md:mt-20 text-[#020043] flex flex-col-reverse md:flex-row">
+        <div className="mt-20 md:mt-20 text-[#020043] flex flex-col-reverse md:flex-row">
             <div className="mt-28 md:mt-0 flex-1">
                 <p className=" border border-[#343268] px-5 py-2 rounded-3xl w-fit">Who we are</p>
                 <p className="text-4xl font-semibold mt-2">We Help To Get <br /> Soultions</p>

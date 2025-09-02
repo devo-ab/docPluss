@@ -5,7 +5,7 @@ import img2 from "../../assets/images/Rectangle 27.png"
 
 const Services = () => {
     return (
-        <div className="mt-20 md:mt-40 text-[#020043] grid grid-cols-1 md:grid-cols-2 gap-6 bg-[#fffff5] p-8">
+        <div className="mt-10 md:mt-40 text-[#020043] grid grid-cols-1 md:grid-cols-2 gap-6 bg-[#fffff5] p-4 md:p-8">
             <div className="mt-16 md:mt-0 flex-1">
                 <p className=" border border-[#343268] px-5 py-2 rounded-3xl w-fit">Service</p>
                 <p className="text-4xl md:text-6xl font-semibold mt-3">Empowering Health,<br /> Enriching Lives</p>
